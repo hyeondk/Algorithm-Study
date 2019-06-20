@@ -21,4 +21,4 @@ insertsort(d)
 
 insertsort(c(51, 31, 17, 5, 9))
 insertsort(c(56, 89, 21, 99, 35, 1, 65, 7, 25))
-insertsort(5)
+insertsort(7)
