@@ -1,5 +1,8 @@
 ### Algorithm : Bisection ###
 
+## Assumption
+# f(x) = x^2 - sin(x) - 0.5
+
 ## Code 1
 bisection_sol <- function(a, b, eps) {
   fx <<- function(x) {
