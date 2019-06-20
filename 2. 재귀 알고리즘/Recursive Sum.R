@@ -16,7 +16,7 @@ asum(55)
 ## 2. Code
 sum.recursive <- function(n) {
   if(n == 1) return(n)
-  return(n + sum.recursive(n-1)) #n + summation(n-1)
+  return(n + sum.recursive(n-1)) # n + summation(n-1)
 }
 
 ## 3. Result Check
