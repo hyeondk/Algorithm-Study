@@ -1,4 +1,4 @@
-### 이분 탐색(Binary Search) ###
+### Algorithm : 이분 탐색(Binary Search) ###
 
 ## 1. Principle
 # ex : 책을 적당히 펼쳐 쪽을 비교한 다음 찾고자 하는 쪽이 있을 방향으로만 다시 탐색하는 과정
