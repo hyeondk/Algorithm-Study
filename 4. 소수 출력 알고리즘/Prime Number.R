@@ -53,12 +53,13 @@ findprime(100)
 findprime2 <- function(n) {
   s <- 2:n
   i <- 1
+  p <- s[i]
   while(p < length(s)) {
-    p <- s[i]
     vec <- s[s %% p == 0]
     vec <- vec[!vec %in% p]
     s <- s[!s %in% vec]
     i <- i + 1
+    p <- s[i]
   }
   return(s)
 }
