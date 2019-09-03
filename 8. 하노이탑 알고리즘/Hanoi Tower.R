@@ -29,7 +29,7 @@ hanoi <- function(n, pstart, pend, paux) {
 
 # Input
 # 출발점 기둥 : 1
-# 도착점 : 3
+# 도착점 기둥 : 3
 # 보조 기둥 : 2
 
 print("n = 1")
