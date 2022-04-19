@@ -1,4 +1,6 @@
-### Algorithm : 빠른 정렬(Quick Sort) ###
+### Algorithm : Quick sort(빠른 정렬)
+### Writer : Donghyeon Kim
+### Update : 2022.04.19
 
 ## 1. Code
 quicksort <- function(x) {
