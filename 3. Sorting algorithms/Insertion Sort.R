@@ -1,4 +1,6 @@
-### Algorithm : 삽입 정렬(Insertion Sort) ###
+### Algorithm : Insertion sort(삽입 정렬)
+### Writer : Donghyeon Kim
+### Update : 2022.04.19
 
 ## 1. Code
 insertsort <- function(x) {
