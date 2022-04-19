@@ -1,4 +1,6 @@
-### Algorithm : 이차방정식 근의 공식 ###
+### Algorithm : Root of quadratic equation(이차방정식의 근)
+### Writer : Donghyoen Kim
+### Update : 2022.04.19
 
 ## 1. Principle
 # (1) Input a, b, c
@@ -14,7 +16,7 @@ if(D == 0) {
   if(D > 0) {
     print(c((-b - sqrt(D))/(2*a), (-b + sqrt(D))/(2*a)))
   }
-  else print("근이 없음")
+  else print("No root")
 }
 
 ## 2. Code
@@ -26,7 +28,7 @@ equation2 <- function(a, b, c) {
     if(D > 0) {
       print(c((-b - sqrt(D))/(2*a), (-b + sqrt(D))/(2*a)))
     }
-    else print("근이 없음")
+    else print("No root")
   }
 }
 
