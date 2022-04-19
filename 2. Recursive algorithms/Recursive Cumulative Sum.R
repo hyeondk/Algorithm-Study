@@ -1,4 +1,6 @@
-### Algorithm : 누적합 재귀함수 ###
+### Algorithm : Cumulative sum recursive function(누적합 재귀함수)
+### Writer : Donghyeon Kim
+### Update : 2022.04.19
 
 ## 1. Principle
 # (1) R function
@@ -12,7 +14,7 @@ csum <- function(x) {
   cum <- c()
   for(i in 1:length(x)) {
     s <- s + x[i]
-    cum <- c(cum, s) # i번째마다 누적합 출력
+    cum <- c(cum, s) # Cumulative sum output every i-th(i번째마다 누적합 출력)
   }
   return(cum)
 }
@@ -23,7 +25,7 @@ csum(1:10)
 ## 2. Code
 csum.recursive <- function(x) {
   if(length(x) == 1) return(x)
-  return(c(x[1], x[1] + csum.recursive(x[-1]))) # i번째마다 누적합 출력
+  return(c(x[1], x[1] + csum.recursive(x[-1]))) # Cumulative sum output every i-th(i번째마다 누적합 출력)
 }
 
 ## 3. Result Check
