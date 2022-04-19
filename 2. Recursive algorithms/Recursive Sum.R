@@ -1,10 +1,12 @@
-### Algorithm : 합 재귀함수 ###
+### Algorithm : Sum recursive function(합 재귀함수)
+### Writer : Donghyeon Kim
+### Update : 2022.04.19
 
-## 방법 1 : 1 + 2 + ... + n
+## Method 1 : 1 + 2 + ... + n
 # (1) User-defined function
 asum <- function(n) {
   s <- 0
-  for(i in 1:n) { # 입력형태 : integer n
+  for(i in 1:n) { # input type : integer n
     s <- s + i
   }
   return(s)
@@ -24,7 +26,7 @@ sum.recursive(55)
 
 ##########################################################################
 
-## 방법 2 : x[1] + x[2] + ... x[n]
+## Method 2 : x[1] + x[2] + ... x[n]
 # (1) User-defined function
 bsum <- function(x) {
   s <- 0
