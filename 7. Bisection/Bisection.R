@@ -1,4 +1,6 @@
-### Algorithm : Bisection ###
+### Algorithm : Bisection(이분법)
+### Writer : Donghyeon Kim
+### Update : 2022.04.19
 
 ## Assumption
 # f(x) = x^2 - sin(x) - 0.5
@@ -26,6 +28,7 @@ for(i in 1:5) {
 }
 results
 
+###################################################################
 
 ## Code 2
 bisection <- function(a, b, eps) {
